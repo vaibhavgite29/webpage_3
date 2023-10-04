@@ -16,7 +16,8 @@ header {
     background: #022D7C;
 }
 
-/* Header Section End */
+/* /Header Section End */
+
 /* Banner Section Start */
 .banner {
     width: 100%;
@@ -57,7 +58,8 @@ header {
     height: 50px;
 }
 
-/* Banner Section End */
+/* /Banner Section End */
+
 /* Our Features Section Start */
 .feature {
     width: 100%;
@@ -73,26 +75,26 @@ header {
     height: 400px;
 }
 
-.feature div h2{
+.feature div h2 {
     font-size: 40px;
     margin-bottom: 7px;
-
 }
 
-.feature div img{
+.feature div img {
     width: 350px;
     height: 250px;
 }
 
-.feature div p{
+.feature div p {
     margin-top: 5px;
     font-size: 18px;
     text-align: justify;
-
 }
-/* Our Features Section End  */
+
+/* /Our Features Section End  */
+
 /* About us Section Start */
-.about{
+.about {
     width: 100%;
     height: auto;
     color: white;
@@ -100,21 +102,69 @@ header {
     padding: 60px 300px;
     background: #022D7C;
 }
-.about h2{
+
+.about h2 {
     font-size: 33px;
     margin-bottom: 7px;
 }
-.about p{
+
+.about p {
     font-size: 18px;
     font-weight: normal;
 }
-.about button{
+
+.about button {
     color: #fff;
     margin-top: 7px;
     padding: 15px 120px;
     font-weight: bold;
     background: #022D7C;
-    border:2px solid #fff;
+    border: 2px solid #fff;
     border-radius: 4px;
 }
+
 /* /About us Section End */
+
+/* Service Section Start */
+.service {
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+
+.service .upper,
+.service .lower {
+    display: flex;
+    align-items: center;
+
+}
+
+.service p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.service .image,
+.service .content {
+    width: 50%;
+}
+
+.service .image img {
+    width: 575px;
+    height: 500px;
+
+}
+
+/* /Service Section End */
+
+/* Footer Section Start */
+footer {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 10px 100px;
+    background-color: #022D7C;
+    text-align: center;
+}
+
+/* Footer Section End */
